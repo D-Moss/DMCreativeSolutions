@@ -3,425 +3,177 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 	<title>DM Creative Solutions</title><link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-	<!--HEADER-->
-	<header class="site-header">
-		<div class="container header-inner">
-			<a class="brand" href="/">
-				<span class="brand-mark">DMCS</span>
-				<span class="brand-name">DM Creative Solutions</span>
-			</a>
+	<header>
+		<nav class="navbar">
+			<div class="logo">
+				<a href="#intro" aria-label="DM Creative Solutions home">
+					<img src="images/Logo.png" alt="DM Creative Solutions logo"/>
+				</a>
+			</div>
 
-			<nav class="nav" aria-label="Primary navigation">
-				<a href="/">Home</a>
-				<a class="active" href="/pricing.html">Services & Pricing</a>
-				<a href="https://YOUR-PORTFOLIO-SITE.com" target="_blank" rel="noreferrer">Portfolio</a>
-				<a href="https://YOUR-REVIEWS-SITE.com" target="_blank" rel="noreferrer">Reviews</a>
-				<a class="nav-cta" href="/contact.html">Contact</a>
-			</nav>
-		</div>
+			<ul class="nav-links">
+				<li><a href="#intro">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#paths">Explore</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
-		<!--HERO-->
-		<section class="hero">
-			<div class="container">
-
-				<p class="kicker">DM Creative Solutions</p>
-
-				<h1>Digital tools and creative systems designed to keep businesses organized and visible.</h1>
-
-				<p class="subhead">
-					DM Creative Solutions helps individuals and small businesses build clean websites, structured spreadsheet systems, and consistent social media content. Each project is built with clarity, organization, and long-term usability in mind.
+		<section id="intro">
+			<div class="intro-content">
+				<h1>DM Creative Solutions</h1>
+				<p>
+					What started as a passion is now a creative space where I build websites and share honest reviews.
 				</p>
 
-				<div class="hero-actions">
-					<a class="btn primary" href="#web-design">Explore Services</a>
-					<a class="btn ghost" href="https://YOUR-PORTFOLIO-SITE.com" target="_blank">
-						View Portfolio
-					</a>
+				<div class="intro-buttons">
+					<a href="#reviews-preview">View Reviews</a>
+					<a href="#design-preview">View Web Design</a>
 				</div>
-				<div class="note-strip" role="note" aria-label="Pricing note">
-					<span class="dot" aria-hidden="true"></span>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="about-container">
+				<h2>About Me</h2>
+
+				<div class="about-text">
 					<p>
-						<strong>Quick note:</strong> Flat rates cover the scope listed. Anything outside that scope is billed hourly.
+						Hi, I’m Diona, the creator behind DM Creative Solutions.
+					</p>
+
+					<p>
+						Before starting DMCS, I was working multiple jobs. During COVID, everything slowed down, and that’s when I found my way into tech. I started with a course in Information Technology and Customer Service, and after completing it, I wanted to learn more. What started as curiosity quickly turned into something more—it wasn’t something I planned. I fell into it, and it turned out to be one of the best things that ever happened to me.
+					</p>
+
+					<p>
+						I found HTML, CSS, and JavaScript, and from there, I was hooked. Creating websites became more than just something to learn—it became a creative outlet. It feels like painting. I start with a blank canvas and watch my ideas come to life on the screen. As a self-taught developer with multiple certifications, I’ve continued to build my skills, creating multiple sites and growing my confidence along the way.
+					</p>
+
+					<p>
+						At the same time, writing reviews has always been something I’ve enjoyed. I rely on reviews to make my own decisions, so I wanted to provide that same value to others. I’ve written reviews on platforms like Google and Amazon, always focusing on being honest and helpful. As an Amazon Vine reviewer and someone whose Google reviews reach thousands of people, I’ve seen firsthand how much reviews can influence and help others.
+					</p>
+
+					<p>
+						DM Creative Solutions came from combining both of these passions—creating websites and writing honest reviews. I wanted to build something of my own, something that reflects what I enjoy doing while also helping others. Since this is something I’m truly passionate about, I’m willing to work hard to create something that reflects someone else’s passion just as much as my own.
+					</p>
+
+					<p>
+						Whether it’s designing a website or sharing a review, my goal is to create work that people can trust.
+					</p>
+
+					<p>
+						DMCS continues to grow, and my vision is simple: to build a brand that provides value, attracts a strong following, and connects with people who appreciate honest content and thoughtful design.
 					</p>
 				</div>
-
-				<div class="jump-links" aria-label="Jump to service section">
-					<a href="#web-design">Web Design</a>
-					<a href="#spreadsheets">Spreadsheet Systems</a>
-					<a href="#social-media">Social Media</a>
-				</div>
 			</div>
 		</section>
 
-		<!--WEB DESIGN-->
-		<section class="section" id="web-design">
-			<div class="container">
-				<div class="section-head">
-					<h2>Web Design</h2>
-					<p>Clean builds that look great on mobile and make it easy for people to contact you.</p>
-				</div>
-
-				<div class="cards">
-					<article class="card">
-						<div class="card-top">
-							<h3>Starter Website</h3>
-							<p class="card-desc">Perfect for a simple online presence.</p>
-						</div>
-
-						<ul class="features">
-							<li>1–3 pages</li>
-							<li>Mobile responsive layout</li>
-							<li>Contact form</li>
-							<li>2 revisions included</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$1,100</span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$100<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start a Website Project →</a>
-					</article>
-
-					<article class="card featured">
-						<div class="badge">Most Popular</div>
-
-						<div class="card-top">
-							<h3>Standard Business Website</h3>
-							<p class="card-desc">Best for service businesses that need more pages + stronger structure.</p>
-						</div>
-
-						<ul class="features">
-							<li>4–8 pages</li>
-							<li>Stronger layout + section structure</li>
-							<li>Contact form + basic SEO setup</li>
-							<li>3 revisions included</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$2,100 – $3,100</span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$100<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start a Website Project →</a>
-					</article>
-
-					<article class="card">
-						<div class="card-top">
-							<h3>Advanced / Custom Website</h3>
-							<p class="card-desc">For custom features, complex layouts, or multi-step user flows.</p>
-						</div>
-
-						<ul class="features">
-							<li>Custom components & interactions</li>
-							<li>Multi-page builds + scalable structure</li>
-							<li>Advanced integrations (as needed)</li>
-							<li>Project plan included</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Starting at</span>
-								<span class="price">$4,200</span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$125<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start a Website Project →</a>
-					</article>
-				</div>
+		<section id="paths">
+			<div class="paths-heading">
+				<h2>Explore DMCS</h2>
+				<p>
+					From honest reviews to custom-built websites, explore the work that brings DMCS to life.
+				</p>
 			</div>
-		</section>
 
-		<!--SPREADSHEET-->
-		<section class="section alt" id="spreadsheets">
-			<div class="container">
-				<div class="section-head">
-					<h2>Spreadsheet Systems</h2>
-					<p>Track, automate, and stay organized — without a messy file that nobody wants to open.</p>
-				</div>
+			<div class="split-wrapper">
+				<article class="split-panel" id="reviews-preview">
+					<div class="panel-content">
+						<h3>DMCS Reviews</h3>
+						<p>
+							Short teaser for reviews goes here.
+						</p>
 
-				<div class="cards">
-					<article class="card">
-						<div class="card-top">
-							<h3>Simple Tracker</h3>
-							<p class="card-desc">A clean tracker with dropdowns and basic totals.</p>
-						</div>
-
-						<ul class="features">
-							<li>1 sheet tracker</li>
-							<li>Dropdown categories</li>
-							<li>Basic totals & summaries</li>
-							<li>Light formatting</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$150 – $300</span>
+						<div class="teasers">
+							<div class="teaser-card">
+								<h4>Review Title One</h4>
+								<p>Short preview text here.</p>
 							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$75<span class="per">/hr</span></span>
+
+							<div class="teaser-card">
+								<h4>Review Title Two</h4>
+								<p>Short preview text here.</p>
 							</div>
 						</div>
 
-						<a class="btn full" href="#inquiry">Start a Spreadsheet Build →</a>
-					</article>
-
-					<article class="card">
-						<div class="card-top">
-							<h3>Structured Business Tracker</h3>
-							<p class="card-desc">Best for ongoing tracking with a clean dashboard.</p>
-						</div>
-
-						<ul class="features">
-							<li>Multi-sheet workbook</li>
-							<li>Validation + cleaner data entry</li>
-							<li>Summary / dashboard tab</li>
-							<li>Documentation included</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$400 – $900</span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$100<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start a Spreadsheet Build →</a>
-					</article>
-
-					<article class="card">
-						<div class="card-top">
-							<h3>Advanced Spreadsheet System</h3>
-							<p class="card-desc">Automation-heavy builds with complex logic & reporting.</p>
-						</div>
-
-						<ul class="features">
-							<li>Advanced formulas & workflows</li>
-							<li>Dynamic reporting</li>
-							<li>Custom logic (validation + checks)</li>
-							<li>Training walkthrough included</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$1,000 – $2,500</span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$125<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start a Spreadsheet Build →</a>
-					</article>
-				</div>
-			</div>
-		</section>
-
-		<!--SOCIAL MEDIA-->
-		<section class="section" id="social-media">
-			<div class="container">
-				<div class="section-head">
-					<h2>Social Media Services</h2>
-					<p>Consistent posting and content that fits your brand — without feeling chaotic.</p>
-				</div>
-
-				<div class="cards">
-					<article class="card">
-						<div class="card-top">
-							<h3>Basic Posting Package</h3>
-							<p class="card-desc">Stay consistent with clean, branded posts.</p>
-						</div>
-
-						<ul class="features">
-							<li>Post scheduling</li>
-							<li>Caption support</li>
-							<li>Basic templates</li>
-							<li>Light analytics check-in</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$700 – $900<span class="per">/mo</span></span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Extra Work</span>
-								<span class="price">$75<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start Social Services →</a>
-					</article>
-
-					<article class="card">
-						<div class="card-top">
-							<h3>Content Creation Package</h3>
-							<p class="card-desc">For people who need stronger visuals + better hooks.</p>
-						</div>
-
-						<ul class="features">
-							<li>Content planning</li>
-							<li>Branded graphics</li>
-							<li>Reels/story support (light)</li>
-							<li>Monthly content batch</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$1,000 – $1,500<span class="per">/mo</span></span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$100<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start Social Services →</a>
-					</article>
-
-					<article class="card">
-						<div class="card-top">
-							<h3>Full Social Media Management</h3>
-							<p class="card-desc">Hands-off support, ongoing content + strategy.</p>
-						</div>
-
-						<ul class="features">
-							<li>End-to-end management</li>
-							<li>Content calendar</li>
-							<li>Scheduling + engagement support</li>
-							<li>Monthly review + next steps</li>
-						</ul>
-
-						<div class="price-grid">
-							<div class="price-block">
-								<span class="price-label">Flat Rate</span>
-								<span class="price">$1,500 – $2,500<span class="per">/mo</span></span>
-							</div>
-							<div class="price-block">
-								<span class="price-label">Additional Work</span>
-								<span class="price">$125<span class="per">/hr</span></span>
-							</div>
-						</div>
-
-						<a class="btn full" href="#inquiry">Start Social Services →</a>
-					</article>
-				</div>
-			</div>
-		</section>
-
-		<!--INQUIRY-->
-		<section class="section alt" id="inquiry">
-			<div class="container">
-				<div class="section-head">
-					<h2>Start an Inquiry</h2>
-					<p>Tell me what you’re building and I’ll respond with next steps.</p>
-				</div>
-
-				<form class="inquiry-form">
-					<div class="grid-2">
-						<label>
-							Name
-							<input type="text" name="name" placeholder="Your name">
-						</label>
-
-						<label>
-							Email
-							<input type="email" name="email" placeholder="you@email.com">
-						</label>
+						<a href="reviews.html">Go to Reviews</a>
 					</div>
+				</article>
 
-					<div class="grid-2">
-						<label>
-							Service
-							<select name="service">
-								<option value="">Select one…</option>
-								<option>Web Design</option>
-								<option>Spreadsheet Systems</option>
-								<option>Social Media</option>
-							</select>
-						</label>
+				<article class="split-panel" id="design-preview">
+					<div class="panel-content">
+						<h3>DMCS Web Design</h3>
+						<p>
+							Short teaser for web design goes here.
+						</p>
 
-						<label>
-							Timeline
-							<select name="timeline">
-								<option value="">Select one…</option>
-								<option>ASAP (1–2 weeks)</option>
-								<option>2–4 weeks</option>
-								<option>1–2 months</option>
-								<option>Not sure yet</option>
-							</select>
-						</label>
+						<div class="teasers">
+							<div class="teaser-card">
+								<h4>Project One</h4>
+								<p>Short preview text here.</p>
+							</div>
+
+							<div class="teaser-card">
+								<h4>Project Two</h4>
+								<p>Short preview text here.</p>
+							</div>
+						</div>
+
+						<a href="web-design.html">Go to Web Design</a>
 					</div>
+				</article>
+			</div>
+		</section>
 
-					<label>
-						Project details
-						<textarea name="details" rows="5" placeholder="What are you trying to build? What do you need it to do?"></textarea>
-					</label>
+		<section id="contact">
+			<div class="contact-content">
+				<h2>Contact</h2>
+				<p>
+					Have a project in mind or a question? I’d love to hear from you.
+				</p>
 
-					<button class="btn primary" type="submit">Send Inquiry</button>
+				<form>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" />
 
-					<p class="form-footnote">
-						Prefer email? Reach out at <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
-					</p>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" />
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="6"></textarea>
+
+					<button type="submit">Send Message</button>
 				</form>
+
+				<div class="social-links">
+					<div class="social-group">
+						<h3>DMCS Reviews</h3>
+						<a href="#">Instagram</a>
+						<a href="#">Facebook</a>
+					</div>
+
+					<div class="social-group">
+						<h3>DMCS Web Design</h3>
+						<a href="#">Instagram</a>
+						<a href="#">Facebook</a>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
 
-	<footer class="site-footer">
-		<div class="container footer-inner">
-			<div class="footer-left">
-				<p class="footer-brand">DM Creative Solutions</p>
-				<p class="footer-links">
-					<a href="/portfolio.html">Portfolio</a>
-					<span>|</span>
-					<a href="/reviews.html">Reviews</a>
-					<span>|</span>
-					<a href="/contact.html">Contact</a>
-				</p>
-			</div>
-
-			<div class="footer-right">
-				<a href="#" aria-label="Instagram" class="social-link">IG</a>
-				<a href="#" aria-label="Facebook" class="social-link">FB</a>
-				<a href="#" aria-label="LinkedIn" class="social-link">LI</a>
-			</div>
-		</div>
+	<footer>
+		<p>&copy; 2026 DM Creative Solutions. All rights reserved.</p>
 	</footer>
-
-	<script>
-		document.getElementById("year").textContent = new Date().getFullYear();
-	</script>
 </body>
 </html>
