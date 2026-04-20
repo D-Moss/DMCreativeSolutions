@@ -143,17 +143,25 @@
 					Have a project in mind or a question? I’d love to hear from you.
 				</p>
 
-				<form>
-					<label for="name">Name</label>
-					<input type="text" id="name" name="name" />
+				<form name="contact" method="POST" data-netlify="true">
+					<input type="hidden" name="form-name" value="contact">
 
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" />
+					<label>
+						Name:
+						<input type="text" name="name" required>
+					</label>
 
-					<label for="message">Message</label>
-					<textarea id="message" name="message" rows="6"></textarea>
+					<label>
+						Email:
+						<input type="email" name="email" required>
+					</label>
 
-					<button type="submit">Send Message</button>
+					<label>
+						Message:
+						<textarea name="message" required></textarea>
+					</label>
+
+					<button type="submit" class="btn btn-primary">Send Message</button>
 				</form>
 
 				<div class="social-links">
