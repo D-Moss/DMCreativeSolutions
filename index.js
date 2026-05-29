@@ -27,3 +27,23 @@ backdrop.addEventListener("click", closeMenu);
 document.addEventListener("keydown", (e) => {
 	if (e.key === "Escape") closeMenu();
 });
+
+const aboutToggles = document.querySelectorAll(".about__toggle");
+
+aboutToggles.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const column = button.closest(".about__column");
+
+        column.classList.toggle("is-expanded");
+
+        if (column.classList.contains("is-expanded")) {
+            button.textContent = "Read Less";
+        } else {
+            button.textContent = "Read More";
+        }
+
+    });
+
+});
